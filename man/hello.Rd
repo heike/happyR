@@ -4,10 +4,14 @@
 \alias{hello}
 \title{this is the title}
 \usage{
-hello(string)
+hello(string = "Heike")
+}
+\arguments{
+\item{string}{character value as greeting, defaults to "Heike"}
 }
 \description{
-this is a description of what the function does \eqn{\frac{1}{n}\sum_{i=1}^n x_i}
+this is a description of what the function does
+\eqn{\frac{1}{n}\sum_{i=1}^n x_i}
 }
 \author{
 ME

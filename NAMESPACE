@@ -2,3 +2,5 @@
 
 export(add)
 export(hello)
+export(mymean)
+importFrom(stats,na.omit)
